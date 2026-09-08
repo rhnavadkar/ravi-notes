@@ -521,12 +521,16 @@ function escapeHTML(text) {
 loadNotes();
 
 </script>
-<script type="module">
-   import 'https://jsdelivr.net';
-
-   const el = document.createElement('pwa-update');
-   document.body.appendChild(el);
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/pwabuilder-sw.js')
+      .then(reg => console.log('Service Worker registered!'))
+      .catch(err => console.log('Service Worker failed: ', err));
+  });
+}
 </script>
+
 
 </body>
 </html>
