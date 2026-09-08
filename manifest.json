@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "ravi-notes.onrender",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ravi-notes",
+  "start_url": "https://ravi-notes.onrender.com/",
+  "theme_color": "#ffffff",
+  "description": "Notes store app"
+}
