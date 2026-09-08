@@ -1,12 +1,17 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
+  "background_color": "#04993b",
+  "dir": "auto",
   "display": "standalone",
   "name": "ravi-notes.onrender",
-  "orientation": "any",
+  "orientation": "natural",
   "scope": "/",
   "short_name": "ravi-notes",
   "start_url": "https://ravi-notes.onrender.com/",
-  "theme_color": "#ffffff",
-  "description": "Notes store app"
+  "theme_color": "#fa9c9c",
+  "description": "Notes store app",
+  "id": "rnote",
+  "lang": "en",
+  "categories": [
+    "social"
+  ]
 }
