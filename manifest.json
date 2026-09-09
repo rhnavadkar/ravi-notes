@@ -1,0 +1,13 @@
+{
+  "background_color": "#fab3b3",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "ravi-notes.onrender",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ravi-notes.onrender",
+  "start_url": "https://ravi-notes.onrender.com",
+  "theme_color": "#fb0d0d",
+  "description": "It is a notes saving app that enables to save notes delete notes edit notes as per requirements",
+  "id": "rhnnotes"
+}
